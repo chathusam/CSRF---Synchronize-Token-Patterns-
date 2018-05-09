@@ -41,7 +41,7 @@ if (empty($_SESSION['key']))
 			      echo $_SESSION['CSRF']; echo " ";
 			      echo $user_token;
           	$_SESSION['loggedin'] = true;	
-          		//apc_delete('csrfs');
+          		
    			    }
    			else
    			{
